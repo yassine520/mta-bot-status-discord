@@ -1,12 +1,12 @@
-const Discord = require("discord.js"); // by : zef
-const Gamedig = require("gamedig"); // by : zef
+const Discord = require("discord.js"); // by : Yassine
+const Gamedig = require("gamedig"); // by : Yassine
 
 module.exports = {
-  name: "status", // by : zef
+  name: "status", // by : Yassine
   run(client, message, args) {
     Gamedig.query({
-	type: "mtasa", // by : zef
-      host: "178.32.127.216", // عنوان الخادم حطه هنا
+	type: "mtasa", // by : Yassine
+      host: "5.182.205.213", // عنوان الخادم حطه هنا
       port: "22003", // بورت الخادم حطه هنا
     })
       .then((state) => {
